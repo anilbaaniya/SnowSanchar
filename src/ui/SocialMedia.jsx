@@ -5,7 +5,7 @@ export default function SocialMedia() {
   return (
     <div className="flex flex-col gap-3">
       <a
-        href="https://facebook.com"
+        href="https://www.facebook.com/share/1DuhmfhB1X/"
         target="_blank"
         rel="noopener noreferrer"
         className="flex items-center gap-2 hover:text-[#ffbf00]"
@@ -14,7 +14,7 @@ export default function SocialMedia() {
       </a>
 
       <a
-        href="https://instagram.com"
+        href="https://www.instagram.com/snow.sanchar_production?igsh=MWxrMnhubHl0OGJhaw=="
         target="_blank"
         rel="noopener noreferrer"
         className="flex items-center gap-2 hover:text-[#ffbf00]"
@@ -23,7 +23,7 @@ export default function SocialMedia() {
       </a>
 
       <a
-        href="https://tiktok.com"
+        href="https://www.tiktok.com/@snow.sanchar_production?_r=1&_t=ZS-96P6yfYn9ct"
         target="_blank"
         rel="noopener noreferrer"
         className="flex items-center gap-2 hover:text-[#ffbf00]"

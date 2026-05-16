@@ -4,6 +4,7 @@ import HomePage from "./pages/HomePage";
 import OurTeam from "./pages/OurTeam";
 import Okhaldhunga from "./pages/Okhaldhunga";
 import Solukhumbu from "./pages/Solukhumbu";
+import Kathmandu from "./pages/Kathmandu";
 import ConnectUs from "./pages/ConnectUs";
 
 export default function App() {
@@ -16,6 +17,7 @@ export default function App() {
           <Route path="ourTeam" element={<OurTeam />} />
           <Route path="solukhumbu" element={<Solukhumbu />} />
           <Route path="okhaldhunga" element={<Okhaldhunga />} />
+          <Route path="kathmandu" element={<Kathmandu />} />
           <Route path="connect" element={<ConnectUs />} />
         </Route>
       </Routes>
