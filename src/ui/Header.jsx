@@ -28,7 +28,7 @@ export default function Header() {
     <nav className="sticky top-0 z-10 bg-black flex items-center justify-around p-4 text-md font-medium shadow-lg shadow-gray-600/70">
       <div>
         <NavLink to="/home">
-          <img src="/logo1.PNG" className="h-20 w-24 cursor-pointer" />
+          <img src="/logo.jpeg" className="h-20 w-24 cursor-pointer" />
         </NavLink>
       </div>
 
