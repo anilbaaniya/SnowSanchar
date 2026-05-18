@@ -84,7 +84,7 @@ export default function OurTeam() {
 
   return (
     <>
-      <section className="bg-[#333] py-16 px-6 md:px-12">
+      <section className=" py-16 px-6 md:px-12">
         {/* Section Heading */}
         <div className="text-center mb-14">
           <h2 className="text-4xl md:text-5xl font-bold text-[#ffbf00] mb-4">

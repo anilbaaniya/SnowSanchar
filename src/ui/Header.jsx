@@ -14,13 +14,21 @@ const contestantsDistrict = [
     district: "Kathmandu",
     to: "/kathmandu",
   },
+  {
+    district: "Pokhara",
+    to: "/kathmandu",
+  },
+  {
+    district: "Lalitpur",
+    to: "/kathmandu",
+  },
 ];
 export default function Header() {
   return (
     <nav className="sticky top-0 z-10 bg-black flex items-center justify-around p-4 text-md font-medium shadow-lg shadow-gray-600/70">
       <div>
         <NavLink to="/home">
-          <img src="/logo.jpeg" className="h-20 w-24 cursor-pointer" />
+          <img src="/logo1.PNG" className="h-20 w-24 cursor-pointer" />
         </NavLink>
       </div>
 
@@ -58,15 +66,24 @@ export default function Header() {
           </div>
         </li>
 
-        <li className="cursor-pointer transition-all tracking-wide duration-300 hover:-translate-y-1 hover:underline hover:underline-offset-6">
+        <NavLink
+          to="/faq"
+          className="cursor-pointer transition-all tracking-wide duration-300 hover:-translate-y-1 hover:underline hover:underline-offset-6"
+        >
           FAQs
-        </li>
-        <li className="cursor-pointer transition-all tracking-wide duration-300 hover:-translate-y-1 hover:underline hover:underline-offset-6">
+        </NavLink>
+        <NavLink
+          to="/about"
+          className="cursor-pointer transition-all tracking-wide duration-300 hover:-translate-y-1 hover:underline hover:underline-offset-6"
+        >
           About Us
-        </li>
-        <li className="cursor-pointer transition-all tracking-wide duration-300 hover:-translate-y-1 hover:underline hover:underline-offset-6">
+        </NavLink>
+        <NavLink
+          to="/news"
+          className="cursor-pointer transition-all tracking-wide duration-300 hover:-translate-y-1 hover:underline hover:underline-offset-6"
+        >
           News
-        </li>
+        </NavLink>
       </ul>
 
       <div className="bg-[linear-gradient(267deg,#DA7C25,#B923E1)] text-white px-6 py-3 rounded-full cursor-pointer transition-all duration-300 hover:scale-105">
