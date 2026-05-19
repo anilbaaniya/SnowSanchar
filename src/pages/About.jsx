@@ -14,7 +14,7 @@ export default function About() {
         </div>
 
         {/* Content Section */}
-        <div className="max-w-5xl mx-auto px-6 py-12 space-y-6">
+        <div className="max-w-6xl mx-auto px-10 py-8 space-y-6 bg-stone-200 my-6 rounded-2xl">
           <p className="text-lg leading-8 text-gray-600 text-justify">
             Snow Sanchar is a creative event management organization built on a
             simple belief: everyone has talent, they just need the right stage

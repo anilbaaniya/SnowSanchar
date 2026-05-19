@@ -39,7 +39,7 @@ export default function Contact() {
           </div> */}
           </div>
 
-          <form className="flex flex-col gap-6">
+          <form className="flex flex-col gap-6 text-white">
             <div className="flex flex-col gap-2">
               <label htmlFor="name">Your Name </label>
               <input
