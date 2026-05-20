@@ -5,7 +5,7 @@ export default function About() {
     <>
       <div className="bg-white text-gray-800">
         {/* Hero Image */}
-        <div className="w-full h-[420px] overflow-hidden">
+        <div className="w-full h-105 overflow-hidden">
           <img
             src="/about.JPEG"
             alt="About Snow Sanchar"
